@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F16F46A25EBD0FD00DE6F2C /* VirusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16F46925EBD0FD00DE6F2C /* VirusManager.swift */; };
+		7F2EB4BC25ECC11200E39C17 /* VirusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2EB4BB25ECC11200E39C17 /* VirusData.swift */; };
+		7F2EB4BF25ECC4E500E39C17 /* VirusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2EB4BE25ECC4E500E39C17 /* VirusModel.swift */; };
+		7F30A94325EF3009008E5074 /* corona-safe-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F30A94225EF3009008E5074 /* corona-safe-logo.png */; };
+		7F44D53325EF251E0016D768 /* Light Mode_covid19_app_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F44D53125EF251E0016D768 /* Light Mode_covid19_app_background.pdf */; };
+		7F44D53425EF251E0016D768 /* Dark Mode_covid19_app_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7F44D53225EF251E0016D768 /* Dark Mode_covid19_app_background.pdf */; };
+		7FA1445C25EDE0AB0046F806 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445425EDE0AA0046F806 /* Montserrat-ExtraLight.ttf */; };
+		7FA1445D25EDE0AB0046F806 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445525EDE0AA0046F806 /* Montserrat-Light.ttf */; };
+		7FA1445E25EDE0AB0046F806 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445625EDE0AB0046F806 /* Montserrat-SemiBold.ttf */; };
+		7FA1445F25EDE0AB0046F806 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445725EDE0AB0046F806 /* Montserrat-Thin.ttf */; };
+		7FA1446025EDE0AB0046F806 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445825EDE0AB0046F806 /* Montserrat-Black.ttf */; };
+		7FA1446125EDE0AB0046F806 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445925EDE0AB0046F806 /* Montserrat-Medium.ttf */; };
+		7FA1446225EDE0AB0046F806 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445A25EDE0AB0046F806 /* Montserrat-Regular.ttf */; };
+		7FA1446325EDE0AB0046F806 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FA1445B25EDE0AB0046F806 /* Montserrat-Bold.ttf */; };
+		7FC7623825E9E72E00DA2822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7623725E9E72E00DA2822 /* AppDelegate.swift */; };
+		7FC7623A25E9E72E00DA2822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7623925E9E72E00DA2822 /* SceneDelegate.swift */; };
+		7FC7623C25E9E72E00DA2822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7623B25E9E72E00DA2822 /* ViewController.swift */; };
+		7FC7623F25E9E72E00DA2822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC7623D25E9E72E00DA2822 /* Main.storyboard */; };
+		7FC7624125E9E73000DA2822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC7624025E9E73000DA2822 /* Assets.xcassets */; };
+		7FC7624425E9E73000DA2822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC7624225E9E73000DA2822 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F16F46925EBD0FD00DE6F2C /* VirusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusManager.swift; sourceTree = "<group>"; };
+		7F2EB4BB25ECC11200E39C17 /* VirusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusData.swift; sourceTree = "<group>"; };
+		7F2EB4BE25ECC4E500E39C17 /* VirusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusModel.swift; sourceTree = "<group>"; };
+		7F30A94225EF3009008E5074 /* corona-safe-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corona-safe-logo.png"; sourceTree = "<group>"; };
+		7F44D53125EF251E0016D768 /* Light Mode_covid19_app_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Light Mode_covid19_app_background.pdf"; sourceTree = "<group>"; };
+		7F44D53225EF251E0016D768 /* Dark Mode_covid19_app_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dark Mode_covid19_app_background.pdf"; sourceTree = "<group>"; };
+		7FA1445425EDE0AA0046F806 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7FA1445525EDE0AA0046F806 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		7FA1445625EDE0AB0046F806 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		7FA1445725EDE0AB0046F806 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		7FA1445825EDE0AB0046F806 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		7FA1445925EDE0AB0046F806 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		7FA1445A25EDE0AB0046F806 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		7FA1445B25EDE0AB0046F806 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		7FC7623425E9E72E00DA2822 /* Corona Safe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Safe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC7623725E9E72E00DA2822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FC7623925E9E72E00DA2822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FC7623B25E9E72E00DA2822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FC7623E25E9E72E00DA2822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FC7624025E9E73000DA2822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FC7624325E9E73000DA2822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FC7624525E9E73000DA2822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC7623125E9E72E00DA2822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F16F46425EBD0D100DE6F2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FC7623B25E9E72E00DA2822 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F16F46725EBD0E500DE6F2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FC7623D25E9E72E00DA2822 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F2EB4B925ECC0F900E39C17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F16F46925EBD0FD00DE6F2C /* VirusManager.swift */,
+				7F2EB4BB25ECC11200E39C17 /* VirusData.swift */,
+				7F2EB4BE25ECC4E500E39C17 /* VirusModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FA1446525EDE0BB0046F806 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7FA1445825EDE0AB0046F806 /* Montserrat-Black.ttf */,
+				7FA1445725EDE0AB0046F806 /* Montserrat-Thin.ttf */,
+				7FA1445B25EDE0AB0046F806 /* Montserrat-Bold.ttf */,
+				7FA1445425EDE0AA0046F806 /* Montserrat-ExtraLight.ttf */,
+				7FA1445525EDE0AA0046F806 /* Montserrat-Light.ttf */,
+				7FA1445925EDE0AB0046F806 /* Montserrat-Medium.ttf */,
+				7FA1445A25EDE0AB0046F806 /* Montserrat-Regular.ttf */,
+				7FA1445625EDE0AB0046F806 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7FC7622B25E9E72E00DA2822 = {
+			isa = PBXGroup;
+			children = (
+				7FC7623625E9E72E00DA2822 /* Covid-19 App */,
+				7FA1446525EDE0BB0046F806 /* Fonts */,
+				7FC7623525E9E72E00DA2822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC7623525E9E72E00DA2822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC7623425E9E72E00DA2822 /* Corona Safe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC7623625E9E72E00DA2822 /* Covid-19 App */ = {
+			isa = PBXGroup;
+			children = (
+				7FC7623725E9E72E00DA2822 /* AppDelegate.swift */,
+				7FC7623925E9E72E00DA2822 /* SceneDelegate.swift */,
+				7F2EB4B925ECC0F900E39C17 /* Model */,
+				7F16F46425EBD0D100DE6F2C /* Controller */,
+				7F16F46725EBD0E500DE6F2C /* View */,
+				7FC7624025E9E73000DA2822 /* Assets.xcassets */,
+				7FC7624225E9E73000DA2822 /* LaunchScreen.storyboard */,
+				7FC7624525E9E73000DA2822 /* Info.plist */,
+				7F44D53225EF251E0016D768 /* Dark Mode_covid19_app_background.pdf */,
+				7F44D53125EF251E0016D768 /* Light Mode_covid19_app_background.pdf */,
+				7F30A94225EF3009008E5074 /* corona-safe-logo.png */,
+			);
+			path = "Covid-19 App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC7623325E9E72E00DA2822 /* Corona Safe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC7624825E9E73000DA2822 /* Build configuration list for PBXNativeTarget "Corona Safe" */;
+			buildPhases = (
+				7FC7623025E9E72E00DA2822 /* Sources */,
+				7FC7623125E9E72E00DA2822 /* Frameworks */,
+				7FC7623225E9E72E00DA2822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Corona Safe";
+			productName = "Covid-19 App";
+			productReference = 7FC7623425E9E72E00DA2822 /* Corona Safe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC7622C25E9E72E00DA2822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7FC7623325E9E72E00DA2822 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7FC7622F25E9E72E00DA2822 /* Build configuration list for PBXProject "Corona Safe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC7622B25E9E72E00DA2822;
+			productRefGroup = 7FC7623525E9E72E00DA2822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC7623325E9E72E00DA2822 /* Corona Safe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC7623225E9E72E00DA2822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA1446225EDE0AB0046F806 /* Montserrat-Regular.ttf in Resources */,
+				7F44D53425EF251E0016D768 /* Dark Mode_covid19_app_background.pdf in Resources */,
+				7FA1445D25EDE0AB0046F806 /* Montserrat-Light.ttf in Resources */,
+				7F30A94325EF3009008E5074 /* corona-safe-logo.png in Resources */,
+				7FA1446025EDE0AB0046F806 /* Montserrat-Black.ttf in Resources */,
+				7F44D53325EF251E0016D768 /* Light Mode_covid19_app_background.pdf in Resources */,
+				7FA1445F25EDE0AB0046F806 /* Montserrat-Thin.ttf in Resources */,
+				7FA1446325EDE0AB0046F806 /* Montserrat-Bold.ttf in Resources */,
+				7FA1445C25EDE0AB0046F806 /* Montserrat-ExtraLight.ttf in Resources */,
+				7FC7624425E9E73000DA2822 /* LaunchScreen.storyboard in Resources */,
+				7FC7624125E9E73000DA2822 /* Assets.xcassets in Resources */,
+				7FA1445E25EDE0AB0046F806 /* Montserrat-SemiBold.ttf in Resources */,
+				7FA1446125EDE0AB0046F806 /* Montserrat-Medium.ttf in Resources */,
+				7FC7623F25E9E72E00DA2822 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC7623025E9E72E00DA2822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2EB4BC25ECC11200E39C17 /* VirusData.swift in Sources */,
+				7FC7623C25E9E72E00DA2822 /* ViewController.swift in Sources */,
+				7F16F46A25EBD0FD00DE6F2C /* VirusManager.swift in Sources */,
+				7F2EB4BF25ECC4E500E39C17 /* VirusModel.swift in Sources */,
+				7FC7623825E9E72E00DA2822 /* AppDelegate.swift in Sources */,
+				7FC7623A25E9E72E00DA2822 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FC7623D25E9E72E00DA2822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC7623E25E9E72E00DA2822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FC7624225E9E73000DA2822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC7624325E9E73000DA2822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FC7624625E9E73000DA2822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FC7624725E9E73000DA2822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC7624925E9E73000DA2822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX2G82J2TK;
+				INFOPLIST_FILE = "Covid-19 App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esikmalazman.Covid-19-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7FC7624A25E9E73000DA2822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX2G82J2TK;
+				INFOPLIST_FILE = "Covid-19 App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esikmalazman.Covid-19-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC7622F25E9E72E00DA2822 /* Build configuration list for PBXProject "Corona Safe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC7624625E9E73000DA2822 /* Debug */,
+				7FC7624725E9E73000DA2822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC7624825E9E73000DA2822 /* Build configuration list for PBXNativeTarget "Corona Safe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC7624925E9E73000DA2822 /* Debug */,
+				7FC7624A25E9E73000DA2822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC7622C25E9E72E00DA2822 /* Project object */;
+}
