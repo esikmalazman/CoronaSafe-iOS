@@ -2,7 +2,7 @@
 app that can track & display number of covid-19 cases in user's or any countries
 
 # What Did I Learn
-1. Apply delegate and MVC desing pattern 
+1. Apply delegate and MVC design pattern 
 2. Utilize Core Location Framework to get user's location
 3. Retrieve live data from api
 4. Convert JSON to Swift Object
